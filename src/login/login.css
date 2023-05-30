@@ -1,0 +1,130 @@
+.metaverse__login-container{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.metaverse__login-container_center{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.metaverse__login-container_left img{
+    height: 80vh;
+    opacity: 90%;
+}
+
+.metaverse__login-container_right{
+    background-image: url("../assests/rightboxbg.png");
+    padding: 2.5rem;
+}
+
+.metaverse__login-container_right h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1.3rem;
+}
+
+.metaverse__username,
+.metaverse__password{
+    padding: 0.6rem 0;
+}
+
+.metaverse__username h2,
+.metaverse__password h2{
+    color: white;
+    font-size: 0.9em;
+    padding: 0 2rem;
+}
+
+.metaverse__username div,
+.metaverse__password div{
+    border:1px solid white;
+}
+
+.metaverse__login-container_right input{
+    background-color: unset;
+    border: none;
+    padding:0 4rem;
+    cursor: pointer;
+}
+
+.metaverse__btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.metaverse__btn1 button,
+.metaverse__btn2 button,
+.metaverse__login-btn button,
+.metaverse__login-btn2 button{
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.metaverse__login-btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.metaverse__login-btn-container p{
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: "Cairo";
+}
+
+.metaverse__login-btn button{
+    background-color: white;
+    color: black;
+    padding:0.7rem 1.7rem;
+}
+
+.metaverse__login-btn2 button{
+    border: 1px solid white;
+    padding: 0.5em 4em;
+}
+
+.metaverse__login-container_right img,
+.metaverse__login-btn2 img{
+    height: 1rem;
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 850px){
+    .metaverse__login-container_left{
+        display: none;
+    }
+
+    .metaverse__login-container{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .metaverse__login-container_left{
+        display: none;
+    }
+
+    .metaverse__login-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .metaverse__login-container_right{
+        flex: 2;
+    }
+}
